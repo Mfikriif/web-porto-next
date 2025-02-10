@@ -1,12 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Target, TargetAndTransition } from "framer-motion";
 import React from "react";
 
 interface AnimatedComponentProps {
   children: React.ReactNode;
-  initial?: object;
-  animate?: object;
+  initial?: Target;
+  animate?: TargetAndTransition;
   transition?: object;
 }
 
