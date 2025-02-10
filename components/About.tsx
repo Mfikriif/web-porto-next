@@ -1,5 +1,7 @@
 "use client";
+import Image from "next/image";
 import AnimatedComponent from "./AnimationComponent";
+import fikri from "@/public/images/fikri.jpg";
 
 export const About = () => {
   return (
@@ -10,11 +12,7 @@ export const About = () => {
       >
         {/* Foto */}
         <div className="h-72 w-72 rounded-full overflow-hidden mx-auto">
-          <img
-            src="/images/fikri.jpg"
-            alt=""
-            className="h-full w-full object-cover"
-          />
+          <Image src={fikri} alt="" className="h-full w-full object-cover" />
         </div>
 
         <div className="">

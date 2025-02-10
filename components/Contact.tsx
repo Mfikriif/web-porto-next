@@ -18,7 +18,7 @@ export const Contact = () => {
           {/* Section: Let's Connect */}
           <div className="mb-16 md:mb-24">
             <h1 className="w-full text-3xl sm:text-4xl font-bold text-center mb-10">
-              Let's Connect
+              Let&apos;s Connect
             </h1>
 
             {/* Link Social Media */}
