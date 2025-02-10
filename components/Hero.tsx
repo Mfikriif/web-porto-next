@@ -1,5 +1,4 @@
 "use client";
-import SplitText from "@/src/blocks/TextAnimations/SplitText/SplitText";
 import ShinyText from "@/src/blocks/TextAnimations/ShinyText/ShinyText";
 import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 import { FlipWords } from "./ui/flip-words";
