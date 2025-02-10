@@ -5,7 +5,6 @@ import React from "react";
 import { Timeline } from "./ui/timeline";
 import dokumICP from "@/public/images/dokumICP.jpg";
 import dokumICP2 from "@/public/images/dokumICP2.jpg";
-import { motion } from "framer-motion";
 import AnimatedComponent from "./AnimationComponent";
 
 export const Experience = () => {
