@@ -30,7 +30,7 @@ export const projects = [
     title: "SI-AKAM",
     description:
       "SIAKAM is an academic website designed for students, lecturers, and academic staff to manage various academic activities.",
-    image: "/images/siakam.png",
+    image: "/images/siakam2.png",
     tech: ["Laravel 11", "Laravel Breeze", "MySQL"],
     link: "https://github.com/Mfikriif/SiAKAM",
   },
