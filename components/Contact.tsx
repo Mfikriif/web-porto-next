@@ -6,7 +6,7 @@ import instagram from "@/public/images/instagram.png";
 import linkedin from "@/public/images/linkedin.png";
 import twitter from "@/public/images/twitter.png";
 import github from "@/public/images/github.png";
-import mail from "@/public/images/mail.png";
+import mail from "@/public/images/envelope-simple.png";
 import wa from "@/public/images/whatsapp.png";
 import AnimatedComponent from "./AnimationComponent";
 
@@ -24,7 +24,7 @@ export const Contact = () => {
             {/* Link Social Media */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-center mx-auto max-w-4xl">
               <Link
-                className="flex items-center text-white dark:text-white justify-center bg-[#731414] hover:bg-[#932a2a] w-full h-14 font-semibold transition delay-150 duration-200 hover:-translate-y-1 hover:scale-110 rounded-lg"
+                className="flex items-center text-white dark:text-white justify-center bg-[#af3434] hover:bg-[#ce3d3d] dark:bg-[#731414] dark:hover:bg-[#932a2a] w-full h-14 font-semibold transition delay-150 duration-200 hover:-translate-y-1 hover:scale-110 rounded-lg"
                 target="_blank"
                 href={"https://www.instagram.com/mfikriif_/"}
               >
@@ -82,7 +82,7 @@ export const Contact = () => {
               >
                 <div className="flex items-center text-white dark:text-white">
                   <Image
-                    className="filter invert"
+                    className="filter invert text-white"
                     src={mail}
                     alt=""
                     width={27}
