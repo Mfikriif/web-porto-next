@@ -9,7 +9,7 @@ export const Portofolio = () => {
         id="portofolio"
         className=" w-3/4 mt-20 mx-auto mb-10 sm:px-2 md:px-8"
       >
-        <h1 className="pt-2 /20 mx-auto text-center text-4xl font-bold tracking-wide w-72 h-16 backdrop-blur-3xl rounded-3xl">
+        <h1 className="pt-2 /20 mx-auto text-center text-4xl font-bold tracking-wide w-72 h-16">
           Projects
         </h1>
         <HoverEffect items={projects} />
@@ -41,14 +41,6 @@ export const projects = [
     image: "/images/pkm.png",
     tech: ["Laravel 11"],
     link: "",
-  },
-  {
-    title: "ALGOMARINE",
-    description:
-      "Algomarine website is company profile for algomarine organization.",
-    image: "/images/algomarine.png",
-    tech: ["Laravel 11", "Filament", "MySQL"],
-    link: "https://github.com/Mfikriif/algoMarineWeb",
   },
   {
     title: "E-PRESENSI",

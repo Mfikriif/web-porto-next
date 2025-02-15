@@ -48,7 +48,7 @@ export const frontend = [
   { title: "React", image: "/images/react-logo.png" },
   { title: "Tailwind CSS", image: "/images/tailwind.png" },
   { title: "JavaScript", image: "/images/js-logo.png" },
-  { title: "HTML", image: "/images/HTML-logo.png" },
+  { title: "HTML", image: "/images/html.png" },
   { title: "CSS", image: "/images/CSS-Logo.png" },
   { title: "TypeScript", image: "/images/typescript.png" },
   { title: "Next.js", image: "/images/next-js.png" },
@@ -60,7 +60,7 @@ export const backend = [
 ];
 
 export const database = [
-  { title: "MySQL", image: "/images/Mysql-logo.png" },
+  { title: "MySQL", image: "/images/mysql.png" },
   { title: "Sqlite", image: "/images/sqlite.png" },
 ];
 

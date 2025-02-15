@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const navLinks = [
@@ -22,8 +22,9 @@ export const Navbar = () => {
   const closeNav = () => {
     setNav(false);
   };
+
   return (
-    <div className="z-50 fixed flex justify-center w-full text-white font-bold">
+    <div className="z-50 fixed flex justify-center w-full text-dark dark:text-dark font-bold">
       <div
         className="border border-white/20 mt-8 backdrop-blur-3xl rounded-3xl
          hidden md:flex items-center justify-center p-2 max-w-[4000px] mx-auto"
@@ -33,7 +34,7 @@ export const Navbar = () => {
             <li key={index}>
               <Link
                 href={nav.path}
-                className="transform hover:text-white/50 transition-all duration-300 ease-in-out"
+                className="transform hover:text-white/50  transition-all duration-300 ease-in-out"
               >
                 {nav.title}
               </Link>
